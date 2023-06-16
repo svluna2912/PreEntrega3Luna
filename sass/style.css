@@ -120,6 +120,7 @@
   background-color: rgba(243, 223, 245, 0.952);
   margin: 0 auto;
   margin-top: 80px;
+  position: relative;
 }
 
 .modalidades-img img {
@@ -127,6 +128,7 @@
   padding-left: 20px;
   width: 90%;
   height: 90%;
+  position: relative;
 }
 
 .frecuencia {
@@ -139,6 +141,7 @@
   text-align: justify;
   padding-top: 40px;
   padding-right: 20px;
+  position: absolute;
   font-family: Verdana;
   font-size: 25px;
 }
@@ -185,6 +188,7 @@
   background-color: rgba(243, 223, 245, 0.952);
   margin: auto;
   margin-top: 80px;
+  position: relative;
 }
 
 .staff img {
@@ -192,6 +196,7 @@
   padding-left: 20px;
   width: 90%;
   height: 90%;
+  position: relative;
 }
 
 .descripcion-taller {
@@ -249,6 +254,7 @@ body {
   height: 100%;
   margin-top: 40px;
   min-height: 100vh;
+  position: relative;
 }
 
 .titulo1 {
