@@ -22,6 +22,7 @@ body {
 .navbar-nav a:hover {
   background-color: aliceblue;
   box-shadow: 6px 6px 10px black;
+  z-index: 99;
   } 
 
 .nav-link {
