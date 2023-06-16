@@ -16,13 +16,15 @@ body {
   width: 100%;
   background-image: url(../images/backgroundheader.jpg)!important; 
   background-size: 100%;
+}
 
+.navbar-nav {
+  z-index: 99;
 }
 
 .navbar-nav a:hover {
   background-color: aliceblue;
   box-shadow: 6px 6px 10px black;
-  z-index: 99;
   } 
 
 .nav-link {
