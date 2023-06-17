@@ -19,7 +19,6 @@ body {
 }
 
 .navbar-collapse {
-  background-color: grey;
   z-index: 99;
 }
 .navbar-nav a:hover {
