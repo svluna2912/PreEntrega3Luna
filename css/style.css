@@ -118,6 +118,15 @@ body {
   font-weight: lighter;
   margin-top: 30px;
 }
+
+@media (max-width: 1200px) {
+  .main-nosotros {
+    margin-top: 40px;
+    min-height: 100vh;
+    position: relative;
+  }
+}
+
 @media (max-width: 730px) {
   .profesores {
     flex-direction: column;
