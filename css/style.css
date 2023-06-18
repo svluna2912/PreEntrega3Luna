@@ -123,6 +123,15 @@ body {
     flex-direction: column;
   }
 }
+
+@media (max-width: 1200px) {
+  .main {
+    margin-top: 40px;
+    min-height: 100vh;
+    position: relative;
+  }
+}
+
 @media (max-width: 730px) {
   .servicios {
     display: flex;
