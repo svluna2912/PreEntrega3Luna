@@ -247,6 +247,24 @@ body {
   position: relative;
 }
 
+.footer-nosotros {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(rgb(7, 75, 114), rgb(204, 37, 101));
+  margin-top: 10%;
+  bottom: 0;
+  position: relative;
+} 
+
+.footer-modalidades {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(rgb(7, 75, 114), rgb(204, 37, 101));
+  margin-top: 10%;
+  bottom: 0;
+  position: relative;
+} 
+
 .footer-contacto {
   width: 100%;
   height: auto;
