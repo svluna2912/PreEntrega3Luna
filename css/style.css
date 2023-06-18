@@ -21,6 +21,11 @@ body {
 .navbar-collapse {
   z-index: 99;
 }
+
+.navbar-toggler-icon {
+  background-color: grey;
+}
+
 .navbar-nav a:hover {
   background-color: aliceblue;
   box-shadow: 6px 6px 10px black;
