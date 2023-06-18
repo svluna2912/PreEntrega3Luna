@@ -70,7 +70,7 @@ body {
 }
 
 .profesores {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 100vh;
   display: flex;
@@ -106,7 +106,7 @@ body {
   font-size: 25px;
 }
 .servicios {
-    overflow: scroll;
+    overflow: scroll hidden ;
     width: 80%;
     height: 30%;
     display: flex;
@@ -135,6 +135,7 @@ body {
 
 @media (max-width: 730px) {
   .profesores {
+    overflow: scroll;
     flex-direction: column;
   }
 }
@@ -149,6 +150,7 @@ body {
 
 @media (max-width: 730px) {
   .servicios {
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +164,7 @@ body {
 }
 
 .modalidades {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 100vh;
   display: flex;
@@ -198,7 +200,7 @@ body {
 }
 
 .seminarios {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 30%;
   display: flex;
@@ -219,12 +221,14 @@ body {
 
 @media (max-width: 730px) {
   .modalidades {
+    overflow: scroll;
     flex-direction: column;
   }
 }
 
 @media (max-width: 730px) {
   .seminarios {
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -137,7 +137,7 @@
 }
 
 .modalidades {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 100vh;
   display: flex;
@@ -173,7 +173,7 @@
 }
 
 .seminarios {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 30%;
   display: flex;
@@ -202,10 +202,12 @@
 @media (max-width: 730px) {
   .modalidades {
     flex-direction: column;
+    overflow: scroll;
   }
 }
 @media (max-width: 730px) {
   .seminarios {
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,7 +215,7 @@
   }
 }
 .profesores {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 100vh;
   display: flex;
@@ -248,7 +250,7 @@
 }
 
 .servicios {
-  overflow: scroll;
+  overflow: scroll hidden;
   width: 80%;
   height: 30%;
   display: flex;
@@ -276,11 +278,13 @@
 }
 @media (max-width: 730px) {
   .profesores {
+    overflow: scroll;
     flex-direction: column;
   }
 }
 @media (max-width: 730px) {
   .servicios {
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
