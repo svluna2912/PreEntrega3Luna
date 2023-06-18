@@ -234,6 +234,7 @@
   background-color: rgba(243, 223, 245, 0.952);
   margin: 0 auto;
   margin-top: 80px;
+  position: relative;
 }
 
 .herramientas-materiales p {
@@ -269,8 +270,8 @@ body {
 }
 
 .main {
-  height: 100%;
   margin-top: 40px;
+  margin-bottom: 40px;
   min-height: 100vh;
   position: relative;
 }
