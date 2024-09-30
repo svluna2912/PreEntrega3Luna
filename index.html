@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Mision Xocolate</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chocolatería Artesanal</title>
+</head>
 <body>
     <header>
         <h1>Mision Xocolate</h1>
     </header>
-    <main class="main">
-        <section class="container">
-            <h2 class="titulo">Productos</h2>
-            <div class="productos" id="productos">
-                <!-- Esto se va a rellenar con JS -->
-            </div>
+
+    <main>
+        <section id="productos">
+            <h2>Productos Destacados</h2>
+            <div id="lista-productos"></div>
         </section>
-        <section class="container">
-            <h2 class="titulo">Carrito</h2>
-            <div class="carrito">
-                <div id="carrito-vacio">
-                    <h4>Tu carrito está vacío. 🙁</h4>
-                </div>
-                <div class="carrito-productos d-none" id="carrito-productos">
-                    <!-- Esto se va a rellenar con JS -->
-                </div>
-                <div class="carrito-total">
-                    <h2>Total: <span id="carrito-total">$0</span></h2>
-                </div>
-            </div>
+
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total">Total: $0.00</p>
         </section>
     </main>
-<footer>
-    <p>&copy; 2024 Chocolates hechos con amor</p> 
-</footer>
+
+
+    <footer>
+        <p>&copy; 2024 Chocolatería Artesanal. Todos los derechos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
