@@ -1,0 +1,7 @@
+[
+    { "id": 1, "nombre": "chocolate en Barras p/100 gr.", "precio": 1000, "imagen": "./images/chocolate1.jpg", "descripcion": "Delicioso chocolate oscuro con un 70% de cacao." },
+    { "id": 2, "nombre": "chocolate surtido p/100 gr.", "precio": 2000, "imagen": "./images/chocolate2.jpg", "descripcion": "Chocolate en barra surtidos y bombones." },
+    { "id": 3, "nombre": "bombones surtidos p/100 gr.", "precio": 3000, "imagen": "./images/chocolate3.jpg", "descripcion": "Ideal para los amantes de sabores exóticos." },
+    { "id": 4, "nombre": "figuras p/100 gr.", "precio": 4000, "imagen": "./images/chocolate4.jpg", "descripcion": "Figuras creadas a pedido, solicitar con anticipación." }
+]
+

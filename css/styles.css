@@ -1,8 +1,7 @@
 * {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f8f4f1;
+    padding: 0;   
 }
 
 header {
@@ -13,16 +12,21 @@ header {
 }
 
 h1, h2, h3 {
-    color: #6f4e37;
+    color: black;
+    text-align: center;
 }
 
 p {
-    font-size: medium;
-    color: #6f4e37;
+    font-size: large;
+    color: black; 
 }
 
 main {
     padding: 20px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #lista-productos {
